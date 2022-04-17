@@ -1,0 +1,753 @@
+.header{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+    list-style: none;
+    padding-left: 0px;
+}
+.guitinnhanh{
+    display: flex;
+}
+.ema{
+    margin-right: 25px;
+}
+.emaganize{
+    display: flex;
+    margin-left: 100px;
+    margin-right: 150px;
+    list-style: none;
+    padding-left: 0px;
+}
+.header_toan{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background: #f7f8f9;
+    border-bottom: 1px solid #eaecf1;
+    height: 28px;
+}
+.kieuchu{
+    font-size: 13.5px;
+    color: #9E9E9E;
+    text-decoration: none;
+}
+.cach{
+    margin-left: 1.7rem;
+    font-size: 1.3rem;
+    color: #9E9E9E;
+    text-decoration: none;
+}
+.gachtimmoi{
+    width: 29px;
+    height: 2px;
+    display: block;
+    background: #d8d8d8;
+    margin-right: 16px;
+    float: left;
+    margin-top: 13px;
+}
+.tinmoi{
+    color: #e53333;
+    font-size: 13px;
+    font-family: Roboto-Medium,sans-serif;
+    text-transform: uppercase;
+    float: left;
+    margin-top: 7px;
+}
+.header_duoi{
+    display: flex;
+    width: 1100px;
+    height: 163px;
+    margin-left: 180px;
+}
+.time{
+    color: #5a5f62;
+    display: block;
+    float: left;
+    margin-right: 7px;
+    font-size: 12px;
+    font-family: Arial;
+    width: 30px;
+    border-right: 1px solid #f0f0f0;
+    padding-right: 7px;
+    margin-top: 1px;
+}
+.text{
+    float: left;
+    width: 439px;
+    color: #0b75b1;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.chay{
+    display: flex;
+}
+element.style {
+    overflow-y: scroll;
+    width: auto;
+    height: 138px;
+    padding-left: 0px;
+}
+.mucphu{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mucphu a{
+    font-family: Arial;
+    font-size: 12px;
+    color: #777;
+    background: #f0f2f4;
+    padding: 5px 13px;
+    display: inline-block;
+    border-radius: 28px;
+    margin-top: 8px;
+    margin-right: 6px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.anhcafe{
+    margin-top: 50px;
+}
+.menu{
+    height: 32px;
+    background: #2c3442;
+    margin-top: 30px;
+    display: block;
+}
+.listthoisu{
+    display: flex;
+}
+.thoisuitem{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin-top: 7px;
+    text-decoration: none;
+    line-height: 16px;
+}
+/* bo dau cham cua li */
+li::marker {
+    color: rgba(255, 255,255, 0);
+}
+.cachmenu{
+    padding: 0px 20px 0px 20px;
+}
+.dodaimenu{
+    margin-left: 200px;
+    /* display: flex; */
+}
+.menutrai{
+    padding-left: 230px;
+}
+.goctrai{
+    display: flex;
+}
+
+.container{
+    background: #fff;
+    margin-top: 50px;
+    margin-left: 110px;
+    margin-right: 103px;
+    width: 1200px;
+    height: auto;
+}
+.container a{
+    text-decoration: none;
+}
+
+.mot_chu{
+    font-size: 22px;
+    font-family: SFPD-SemiBold;
+    line-height: 140%;
+    font-size: 17px;
+    color: #111;
+    display: block;
+    width: 565px;
+}
+.mot_mot{
+    display: flex;
+}
+.mot_mot_1{
+    padding: 10px 15px 10px 0;
+}
+.mot_hai{
+    font-family: SFPD-SemiBold;
+    line-height: 140%;
+    font-size: 17px;
+    color: #111;
+    display: block;
+    width: 270px;
+}
+.dau_de{
+    display: flex;
+    margin-left: 58px;
+
+}
+.chandung{
+    font-family: SFPD-SemiBold;
+    line-height: 140%;
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+    display: block;
+    width: 235px;
+    margin-right: 30px;
+}
+.nong{
+    display: flex;
+    padding-top: 18px;
+    border-top: 1px dashed #e5e5e5;
+    margin-bottom: 18px;
+}
+.nong_1{
+    color: #333;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 124px;
+    display: block;
+    margin-left: 10px;
+    font-size: 14px;
+    font-family: SFPD-Regular;
+    width: 125px;
+    height: 68px;
+}
+.giamdoc{
+    display: flex;
+    margin-left: 65px;
+    
+}
+.dangchuy{
+    margin-left: 65px;
+    font-size: 15px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #111;
+    font-family: SFPD-Bold;
+    padding-bottom: 10px;
+    position: relative;
+}
+.tienderatien{
+    display: flex;
+    width: 1160;
+    height: 445;
+}
+.list_item{
+    display: flex;
+    flex-direction: column;
+}
+.item{
+    font-size: 14px;
+    line-height: 150%;
+    color: #333;
+    font-family: SFPD-SemiBold;
+    width: 235px;
+    height: 100px;
+}
+.EU{
+    display: flex;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #e5e5e5;
+}
+.chinhthuc{
+    font-family: SFPD-SemiBold;
+    line-height: 140%;
+    font-size: 17px;
+    color: #111;
+    display: block;
+    width: 275px;
+    height: 48px;
+}
+.gio{
+    color: #888;
+    padding-top: 50px;
+}
+.thoisu{
+    font-size: 13px;
+    line-height: 16px;
+    font-family: SFPD-Regular;
+    text-transform: capitalize;
+    color: #aaa;
+    margin-bottom: 5px;
+    display: block;
+}
+.thongtin{
+    margin-left: 20px;
+}
+.than_2{
+    display: flex;
+    margin-left: 70px;
+}
+.kinhdoanh{
+    background: #fff;
+    border: 1px solid #e5e9ec;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+}
+.font_kinhdoanh{
+    font-size: 14px;
+    line-height: 140%;
+    font-family: SFPD-Bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #555;
+}
+
+.goto{
+    margin-left: 65px;
+
+}
+.goto_1{
+    display: flex;
+    justify-content: space-between;
+}
+.vietnam{
+    color:#555555;
+    font-family:SFPD-Medium;
+    line-height:16px;
+    font-weight: normal;
+}
+.khungvietnam{
+    width: 260px;
+    height: 90px;
+}
+.kehoach{
+    font-size: 14px;
+    font-family: SFPD-Regular;
+    color: #333;
+    font-weight: normal;
+}
+.khungchu{
+    width: 235px;
+    border-top: 1px dashed #d6dce2;
+}
+.dichuyenkhung{
+    margin-top: -20px;
+}
+.khonghothoang{
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #e5e9ec;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+}
+.rightbox1{
+    display: block;
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 24px 12px;
+    box-sizing: border-box;
+    margin: 0 15px;
+    margin-bottom: 14px;
+    box-shadow: 0px 6px 9px 0px rgb(0 0 0 / 5%);
+    padding-bottom: 32px;
+    padding-top: 16px;
+}
+.tintuc_1{
+    display: flex;
+}
+.tintuc_1_1{
+    padding-left: 10px;
+}
+
+.xemtatca{
+    justify-content: space-between;
+}
+.xemtatca_1{
+    color: #666666;
+    float: right;
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: -26px;
+}
+.chandung{
+    display: flex;
+}
+.chu_1{
+    width: 160px;
+    height: 90px;
+    font-family: myFont;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    display: block;
+    text-align: left;
+    color: #333333;
+    padding-top: 0;
+    margin: 0;
+    margin-top: 6px;
+}
+.lamthe{
+    position: absolute;
+    display: block;
+    margin: auto;
+    background: #0549AE;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'myFont';
+    font-weight: 500;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    line-height: 20px;
+    margin-left: 8px;
+    position: relative;
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-right: 10px;
+    padding-bottom: 24px;
+    width: 530px;
+    height: 75px;
+    
+}
+.cauhoithuonggap{
+    display: flex;
+    margin-top: 10px;
+}
+.datcauhoi{
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 1px rgb(0 0 0 / 10%);
+    height: 43px;
+    font-family: myFont;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 15px;
+    color: #444444;
+    margin: auto;
+    margin-left: 8px;
+    display: block;
+    width: 530px;
+    box-sizing: border-box;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 6px 9px 0px rgb(0 0 0 / 5%);
+}
+.datcauhoi img{
+    float: right;
+}
+.center{
+    float: left;
+}
+.song{
+    margin-top: 50px;
+    background: #fff;
+    border: 1px solid #e5e9ec;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 15px;
+}
+.ngothanh{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #d6dce2;
+}
+.font_song{
+    font-size: 14px;
+    line-height: 140%;
+    font-family: SFPD-Bold;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    color: #555;
+   
+}
+.tuoi{
+    font-size: 16px;
+    color: #555;
+    font-family: SFPD-Medium;
+    font: bold;
+}
+.khungtuoi{
+    width: 325px;
+    margin-right: 55px;
+}
+.nhamaycu{
+    margin-top: 50px;
+    display: flex;
+}
+.conbo{
+    width: 48.5%;
+    padding: 12px 20px 20px 20px;
+    box-sizing: border-box;
+    background: #f4f7fb;
+    border-radius: 8px;
+}
+.mycafe{
+    font-size: 14px;
+    line-height: 140%;
+    text-transform: uppercase;
+    color: #555;
+    font-family: SFPD-Bold;
+    position: relative;
+    display: block;
+}
+.anhbo{
+    padding-top: 12px;
+    border-top: 1px solid #d6dce2;
+}
+.gochack1{
+    font-size: 13px;
+    line-height: 140%;
+    color: #555;
+    font-family: SFPD-Regular;
+    font-weight: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.gochack{
+    font-size: 13px;
+    line-height: 140%;
+    color: #555;
+    font-family: SFPD-Regular;
+    font-weight: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 146px;
+    height: 73px;
+    margin-left: 23px;
+}
+.conbo1{
+    width: 48.5%;
+    padding: 12px 20px 20px 20px;
+    box-sizing: border-box;
+    background: #f4f7fb;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.ngothanh1{
+    margin-top: 25px;
+    padding-top: 25px;
+    border-top: 1px solid #d6dce2;
+}
+.chandung1{
+    font-family: SFPD-SemiBold;
+    line-height: 140%;
+    font-size: 17px;
+    color: rgb(17, 17, 17);
+    display: block;
+    width: 235px;
+    margin-right: 30px;
+    display: flex;
+    border-top: 20px;
+    border-top: 1px solid #d6dce2;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+.phongnensky{
+    font-family: arial;
+    padding: 20px 0;
+    cursor: pointer;
+    border-bottom: none;
+    background: #f2f2f2;
+    max-height: 200px;
+}
+.thesky{
+    display: flex;
+}
+.taitro{
+    display: flex;
+    
+    
+}
+.sgc{
+    font-family: sf_pro_display_medium;
+    font-size: 13px;
+    color: #285A71;
+}
+.chutaitro{
+    font-family: sf_pro_display_medium;
+    font-size: 13px;
+    color: #285A71;
+}
+.khungchutaitro{
+    margin-top: -15px;
+}
+.phongnensky1{
+    font-family: arial;
+    padding: 20px 0;
+    cursor: pointer;
+    border-bottom: none;
+    background: #f2f2f2;
+    height: 180px
+}
+.thesky1{
+    display: flex;
+    margin-top: -10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.thoisuitem1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    color:black;
+    display: inline-block;
+    margin-top: 7px;
+    text-decoration: none;
+    line-height: 16px;
+}
+.dodaimenu1{
+    margin-left: 200px;
+}
+.infor{
+    display: flex;
+    margin-left: 200px;
+}
+.bientap{
+    color: #282828;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+.infor p{
+    font-size: 12px !important;
+    line-height: 23px;
+    margin-bottom: -10px;
+    color: #5d5d5d;
+    font-family: Roboto;
+
+}
+.infora{
+    width: 375px;
+}
+.chat{
+    display: flex;
+    margin-top: 15px;
+    height: 24px;
+    padding: 0 15px;
+    background: #0084ff;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    margin-right: 10px;
+}
+.vanvien{
+    margin-top: 15px;
+    height: 24px;
+    padding: 0 15px;
+    background: #0084ff;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff !important;
+    text-decoration: none;
+}
+.lienhe{
+    padding-left: 38px;
+    padding-right: 38px;
+    border-left: 1px dotted #d0d0d1;
+    border-right: 1px dotted #d0d0d1;
+
+}
+.copy2012{
+    color:#282828;
+    font-family:-apple-system;
+    font-size:12px;
+    font-weight:700;
+    line-height:23px;
+    margin:12px 0px;
+}
+.vanhanhboi{
+    margin-left: 40px;
+    width: 326px;
+}
+.anhcuoi{
+    margin-left: 230px;
+}
+
+.ladi{
+    margin-top: 10px;
+    display: flex;
+}
+.taitro1{
+    font-family: sf_pro_display_medium;
+    font-size: 13px;
+}
+.namngaya{
+    margin-top: -18px;
+    /* cho so dong xuat hien va an */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.dacdia{
+    font-family: sf_pro_display_medium;
+}
+.thuahuong1{
+  
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.laidiva{
+    color: #777;
+    font-size: 13px;
+    line-height: 19px;
+}
+.img25{
+    margin: 25px;
+}
+.img11{
+    margin-top: -8px;
+}
+.chungtaitro{
+    margin-top: 15px;
+}
